@@ -3,7 +3,6 @@
 class TodoMvcPageObject{
 	
 	constructor(){
-		console.log('testeeeeeeee========================');
 	  	this.newTodoField = element(by.id('new-todo'));
 		this.listOfItems = element.all(by.css('.view'));
 	}

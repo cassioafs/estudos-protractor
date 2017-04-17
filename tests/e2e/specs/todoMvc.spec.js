@@ -4,7 +4,6 @@ const TodoMvcPageObject = require('../pages/todoMvc.po.js');
 
 
 describe('Todo MVC Angular', () => {
-  console.log('-------------------------------- TOODO ');
   const page = new TodoMvcPageObject();
 
   it('add an item in the todo list', () =>{
