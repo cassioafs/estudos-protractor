@@ -5,7 +5,7 @@ var HomePageObject = function (){
 };
 
 HomePageObject.prototype.visit = function(){
-  browser.get('#/api');
+  browser.get('http://www.protractortest.org/#/api');
 }
 
 module.exports = HomePageObject;

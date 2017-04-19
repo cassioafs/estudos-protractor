@@ -15,8 +15,6 @@ describe('Choko - Sign in', function(){
 
 	});
 
-
-
 	it('try create account without filling any field', function(){
 		var createAccountPage = new CreateAccountPage();
 		createAccountPage.visit();
